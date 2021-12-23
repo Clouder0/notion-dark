@@ -465,9 +465,12 @@ body{
 /* ################ 页签 ############# */
 .layout-tab-bar .item{
   background-color: var(--b3-theme-background);
+/*
+ * 使用小标签显示
   padding-top: 13px;
   padding-left: 14px;
-  max-width:120px;
+*/
+/*  max-width:120px; 取消最大宽度限制，允许新的页签显示机制(总是占满顶栏) */
   box-shadow: none;
 }
 .layout-tab-bar .item--focus {
