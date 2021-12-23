@@ -195,7 +195,7 @@ body{
 
 .toolbar{
 	height:30px;
-	background-color:var(--b3-scroll-bgcolor);
+/*    background-color:var(--b3-scroll-bgcolor); 顶栏颜色与边框同步 */
 }
 
 .toolbar__item {
@@ -250,7 +250,8 @@ body{
 /* ############# 侧栏 ############ */
 /* dock */
 .dock{
-    background-color:var(--b3-scroll-bgcolor);
+/*    background-color:var(--b3-scroll-bgcolor); 侧栏颜色与边框同步 */
+    background-color: var(--b3-theme-background); /* 侧栏颜色与主题同步 */
 	height:auto;
 }
 .dock__item--active{
